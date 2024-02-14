@@ -1,0 +1,49 @@
+/*font-family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font-family end*/
+
+/*common css start*/
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989 ;
+}
+/*common css end*/
+header{
+	background-color: #fcdb00;
+}
+.cnav{}
+.nsc{}
+.logo{}
+.menu ul li a{
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101;
+	padding: 0 30px !important;
+}
+.menu ul li a:hover{
+	background-color: white;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*headerend*/
+/*slider start*/
+.slider{}
+.s_text{}
+.s_text h1{}
+.s_text h2{}
+.s_text p{}
+/*slider end*/
+/*
+font:
+tsans: 400 700: font-family: 'PT Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+roboto: 400: font-family: 'Roboto', sans-serif;
+color:
+black: #010101
+Ash: #898989
+yellow: #fcdb00
+*/
